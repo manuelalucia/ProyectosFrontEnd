@@ -1,0 +1,48 @@
+header {block-size:315px;
+    background-color: #8062ac;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23ffffff' fill-opacity='0.4'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");}
+    
+    
+    body {background-color:rgba(114, 112, 110, 0.7);
+        font-family:'Segoe UI', sans-serif;
+        text-align: center;
+    }
+    
+    .shakira {border-radius:45%;
+        height:220px;
+        width:220px;
+        position:absolute;
+        right:1100px;
+        bottom:325px;
+
+        
+    }
+
+    .texto-borde { -webkit-text-stroke:0.3px black;
+    }
+
+    
+    
+    
+    #proyectos {background-color:rgba(207, 201, 201, 0.719);
+        font-size:40px;
+        text-align:center;
+        font-family: 'Rubik', sans-serif;
+        
+    }
+    
+    h1 {font-family: 'Rubik', sans-serif;
+        background-color:rgba(151, 79, 245, 0.664);
+        font-size: 40px;
+        text-align:center;
+    }
+    
+    h2 {font-size: 30px;
+        font-family: 'Mochiy Pop P One', sans-serif;
+        color:rgb(255, 166, 0);
+        display:inline-block;
+    }
+
+    h3 {font-family:'Mochiy Pop P One', sans-serif;
+    color: white; 
+}

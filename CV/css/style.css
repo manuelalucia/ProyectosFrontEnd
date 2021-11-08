@@ -1,0 +1,29 @@
+h1 { background-color:rgba(224, 10, 10, 0.76);
+    font-family: 'Signika Negative', sans-serif;}
+
+h2 { background-color:#ffa200c9;
+    font-size: 25px;
+    font-family: 'Signika Negative', sans-serif;
+    font-style:italic;
+
+}
+
+body { background-color:#cccfdb7a;
+    font-family: 'Arimo', sans-serif;
+}
+
+#foto-titulo { text-align:center;
+    background-color: rgba(164, 126, 212, 0.527);
+}
+
+#telefono {text-align:center;
+}
+
+img { width:15%; height:15%;
+    border-radius: 50%;
+}
+
+p { font-weight:bold;
+}
+
+span {font-weight:bold;}
