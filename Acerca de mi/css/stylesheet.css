@@ -10,10 +10,13 @@ font-family: 'Secular One', sans-serif;
 text-align:center;
 }
 
+body section {background-color:rgba(226, 205, 148, 0.726);
+text-align:center;}
+
+
 footer {background-color:rgba(0, 0, 0, 0.849);
 
 }
-
 p {font-size: 35px;
     font-family: 'Cabin', sans-serif;
 }
