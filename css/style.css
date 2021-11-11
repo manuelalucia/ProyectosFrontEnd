@@ -35,6 +35,8 @@ header {block-size:315px;
         background-color:rgba(151, 79, 245, 0.664);
         font-size: 40px;
         text-align:center;
+        position:sticky;
+        top: 0;
     }
     
     h2 {font-size: 30px;
