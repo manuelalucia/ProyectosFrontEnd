@@ -1,16 +1,161 @@
 body {font-family:'Comfortaa';
 }
 
-.ofertas {background-color:black;
+header div {background-color:black;
+    color:white;
+    font-size:15px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items:center;
+    padding: 0px 45px;
+    height:25px;}
+    header div p.ofertas {padding:0px 150px;}
+    header div ul {display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+    gap:25px;}
+
+header nav {background-color:rgb(250, 193, 49);
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 10px 25px;}
+header nav ul {display:flex;
+flex-direction: row;
+justify-content:space-evenly;
+gap:25px;}
+
+div.banner img{width:100%;}
+div.banner h2{background-color:white;
+    padding:10px;
+    font-size:30px;}
+div.banner p {color:#3C2313;}
+div.banner button {background-color:#F0A83E;
+    color:white;
+    border:none;
+    font-size:16px;
+    padding:10px;}
+div.banner div {display:flex;
+        justify-content:space-evenly;
+        flex-direction: column;
+        align-items:center;
+        position:absolute;
+        bottom:160px;
+        left:875px;}
+
+main h1 {color:#3C2313;
+text-align:center;
+padding: 25px 0px 0px;
+font-size: 40px;}
+
+section.productos ul {display:flex;
+flex-direction:row;
+justify-content:center;
+gap:35px;
+padding:0px 0px 25px;}
+section.articulos {display:flex;
+    flex-direction:row;
+justify-content:space-evenly;
+text-align:center;
+padding: 0px 0px 90px;}
+article img {height:268,9px;
+width:265px;}
+article span {color:rgb(250, 193, 49);}
+
+section.contacto ul {display:flex;
+flex-direction:column;
+align-items:center;
+gap:14px;}
+section.contacto ul li {color:white;
+background-color:#3C2313;
+display:flex;
+align-items:center;
+justify-content:left;
+padding:0px 10px;
+width:400px;
+height:40px;
+border-radius:10px;}
+section.contacto h2 {color:#3C2313;
+text-align:center;
+padding-left:20px;}
+button.send {color:white;
+background-color:rgb(250, 193, 49);
+width:110px;
+height:30px;
+border:none;
+border-radius:10px;}
+button.reset {color:white;
+background-color:#8A8787;
+width:110px;
+height:30px;
+border:none;
+border-radius:10px;
+}
+div.botones {display:flex;
+flex-direction:row;
+justify-content:center;
+align-items:center;
+gap:10px;
+padding-left:20px;
+padding-top: 20px;
+}
+section.contacto {display:flex;
+    justify-content:center;
+    flex-direction:column;}
+
+main section {display:flex;
+        flex-direction:column;}
+
+footer {background-color:#3C2313;
+    color:white;
+position:relative;
+top:80px;}
+
+div.novedades {display:flex;
+flex-direction:row;
+justify-content:space-between;
+background-color: #F0A83E;}
+
+div.novedades h2 {color:white;
+font-weight:bolder;
+display:inline-block;
+padding-left: 20px;}
+div.novedades p{
+/* z-index:1; */
+background-color:white;
+color:grey;
+position:relative;
+left:65px;
+padding:7px 200px 5px 8px;
+border-radius:10px;
+}
+div.novedades button {
+/* z-index:2; */
+background-color:#3C2313;
 color:white;
-}
+font-weight:bolder;
+border:none;
+border-radius:10px;
+text-align:center;
+position:relative;
+top:7px;
+right: 100px;
+width:100px;
+height:54px;}
 
-nav {background-color:rgb(250, 193, 49);
-}
+div.datos ul h3{font-weight:bolder;
+font-size:25px}
+div.datos p {color:grey;
+font-weight:bold;
+font-size:15px;
+position:relative;
+bottom:20px;}
+div.datos {position:relative;
+left:80px;}
+footer p.derechos {background-color:black;
+font-weight:bolder;
+text-align:center;
+color:white;}
 
-.banner {background-image: url(./img/bowl-and-pet-daities-on-green-background\ 1.png);
-    background-repeat:no-repeat;
-    background-size:cover;
-    
-    
-}
+
