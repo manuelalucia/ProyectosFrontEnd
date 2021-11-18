@@ -66,7 +66,6 @@ color:white;}
     section.articulos {
     display:inline-flex;
     flex-direction:column;
-    background:
 }
 article p {font-size:1rem;}
 }
