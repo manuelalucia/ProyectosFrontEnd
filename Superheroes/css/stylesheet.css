@@ -65,9 +65,9 @@ color:white;}
 @media (max-width: 500px){
     section.articulos {
     display:inline-flex;
-    flex-direction:row;
-    background:red;
+    flex-direction:column;
 }
+article p {font-size:2rem;}
 }
 
 
