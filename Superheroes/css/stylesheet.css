@@ -65,5 +65,10 @@ padding: 5px;
 text-align:left;
 color:white;}
 
+@media (min-width: 460px;){
+    section.articulos {
+    display: inline-flex;
+    flex-direction:column;}
+}
 
 

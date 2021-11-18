@@ -101,7 +101,7 @@ padding-left:20px;
 padding-top: 20px;
 }
 section.contacto {display:flex;
-    justify-content:center;
+    justify-content:space-evenly;
     flex-direction:column;}
 
 main section {display:flex;
@@ -158,4 +158,4 @@ font-weight:bolder;
 text-align:center;
 color:white;}
 
-
+p, h2 {color:red;}
