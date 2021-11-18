@@ -62,10 +62,11 @@ padding: 5px;
 text-align:left;
 color:white;}
 
-@media (max-width: 720px;){
+@media (max-width: 500px){
     section.articulos {
-    display: inline-flex;
+    display:inline-flex;
     flex-direction:row;
+    background:red;
 }
 }
 
