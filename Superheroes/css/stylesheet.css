@@ -62,12 +62,22 @@ padding: 5px;
 text-align:left;
 color:white;}
 
+.mas {width:60px;
+height:60px;
+position:fixed;
+margin-left: 600px;
+margin-top:90px;}
+
 @media (max-width: 500px){
     section.articulos {
     display:inline-flex;
     flex-direction:column;
 }
 article p {font-size:1rem;}
+.mas {width:25px;
+height:25px;}
 }
+
+
 
 
