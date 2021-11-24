@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superheroes</title>
+    <link href="./css/stylesheet.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+<meta name="viewport" content="width-device-width, initial-scale=1">
+</head>
+<body>
+    <header>
+        
+        <div><p>Descuentos 20%</p>
+            <h1>Héroes</h1></div>
+    </header>
+
+    <main>
+        <h2>Añadí tu Super!</h2>
+        <p>Agregá tu personaje favorito completando las opciones.</p>
+        
+
+<div class="formulario">
+    <form method="get">
+        <div class="c1">
+            <label for="nombre">Nombre</label>
+        <input type="text" id="nombre" name="nombre">
+        <label for="f-nac">Fecha</label>
+        <input type="date" name="f-nac">
+        <input type="text" name="descripcion" placeholder="Descripción" class="descripcion">
+        </div>
+
+        <div class="c2">
+        <label for="especie">Especie</label>
+        <select name="especie">
+            <option value="1">Humano</option>
+            <option value="2">Animal</option>
+            </select>
+            <label for="foto">Agregar foto</label>
+            <input type="file" name="foto">
+            <p>Poderes</p>
+            <label for="volar">Volar</label>
+            <input type="checkbox" name="Volar" value="1">
+            <label for="superinteligencia">Superinteligencia</label>
+            <input type="checkbox" name="superinteligencia" value="2">
+            <label for="vry">Vista rayo láser</label>
+            <input type="checkbox" name="vry" value="3">
+            <label for="bg">Billetera gorda</label>
+            <input type="checkbox" name="bg" value="4">
+            <p>Tipo de personaje</p>
+            <label for="heroina">Héroe/heroína</label>
+            <input type="radio" name="heroina">
+            <label for="villana" name="villana">Villano/villana</label>
+            <input type="radio" name="villana">
+            </form>
+
+        </div>
+
+
+    </form>
+</div>
+
+<button class="enviar"><h3>Añadir</h3></h1></button>
+        
+    </main>
+
+    <footer><p>Todos los derechos reservados a FRONT END 1</p></footer>
+    
+</body>
+</html>

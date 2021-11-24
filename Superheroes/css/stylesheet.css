@@ -59,7 +59,7 @@ button {color:white;
 
 footer {background-color:#00669F;
 padding: 5px;
-text-align:left;
+text-align:center;
 color:white;}
 
 .mas {width:50px;
@@ -67,6 +67,33 @@ height:50px;
 position:fixed;
 margin-left: 1110px;
 margin-top:90px;}
+
+div.formulario {background-color:#00669F;
+display:inline-flex;
+flex-direction:row;
+justify-content:space-evenly;
+border-radius:15px;
+color:white;
+width:70%;
+height:80%;}
+
+div.formulario div.c1 {display:inline-flex;
+flex-direction:column;
+justify-content:space-evenly;
+align-items:center;
+height:100%;}
+
+div.formulario div.c2 {display:inline-flex;
+flex-direction:column;
+justify-content:space-evenly;
+align-items:center;
+height:100%;}
+
+div.c1 input {width:340px;
+height:35px;
+border-radius:10px;
+border:none;}
+
 
 @media (max-width: 500px){
     section.articulos {
