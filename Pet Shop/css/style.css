@@ -63,18 +63,18 @@ article img {height:268,9px;
 width:265px;}
 article span {color:rgb(250, 193, 49);}
 
-section.contacto ul {display:flex;
-flex-direction:column;
-align-items:center;
-gap:14px;}
-section.contacto ul li {color:white;
-background-color:#3C2313;
-display:flex;
-align-items:center;
-justify-content:left;
-padding:0px 10px;
-width:400px;
-height:40px;
+section.contacto form {display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
+    gap:10px;
+}
+section.contacto input {background-color:#3C2313;
+color:white;
+border:none;
+width:350px;
+height:30px;
+padding:10px;
 border-radius:10px;}
 section.contacto h2 {color:#3C2313;
 text-align:center;
