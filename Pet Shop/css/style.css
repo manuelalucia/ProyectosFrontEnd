@@ -115,15 +115,18 @@ top:80px;}
 div.novedades {display:flex;
 flex-direction:row;
 justify-content:space-between;
-background-color: #F0A83E;}
+align-content:center;
+background-color: #F0A83E;
+padding:10px 0px;}
 
-div.novedades h2 {color:white;
+div.novedades label {color:white;
 font-weight:bolder;
 display:inline-block;
 padding-left: 20px;}
-div.novedades p{
+div.novedades input{
 /* z-index:1; */
 background-color:white;
+border:none;
 color:grey;
 position:relative;
 left:65px;
@@ -159,3 +162,4 @@ text-align:center;
 color:white;}
 
 p, h2 {color:red;}
+
