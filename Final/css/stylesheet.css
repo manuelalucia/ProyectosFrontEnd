@@ -26,9 +26,6 @@
 /* Body */
 
 body {font-family: 'Be Vietnam Pro', sans-serif;
-text-align:center;
-display:flex;
-flex-direction:column;
 }
 
 
@@ -154,5 +151,5 @@ footer p {color:grey;
 font-size:12px;}
 
 @media (min-width:375px) {
-    body {width:375px;}
+    
 }
