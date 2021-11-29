@@ -29,7 +29,6 @@ body {font-family: 'Be Vietnam Pro', sans-serif;
 text-align:center;
 display:flex;
 flex-direction:column;
-width:375px;
 }
 
 
@@ -146,6 +145,7 @@ align-content:center;
 align-items:center;}
 footer div.barras nav ul {display:flex;
 flex-direction:column;
+align-items:flex-start;
 gap:7px;}
 i {color:white;
 font-size:35px;
@@ -153,3 +153,6 @@ margin:10px;}
 footer p {color:grey;
 font-size:12px;}
 
+@media (min-width:375px) {
+    body {width:100px;}
+}
