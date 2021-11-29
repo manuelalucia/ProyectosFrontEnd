@@ -154,5 +154,5 @@ footer p {color:grey;
 font-size:12px;}
 
 @media (min-width:375px) {
-    body {width:100px;}
+    body {width:100%;}
 }
