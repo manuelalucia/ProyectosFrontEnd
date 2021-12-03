@@ -18,6 +18,9 @@
     box-shadow:2px 3px rgba(92, 89, 89, 0.295);}
 
 a {text-decoration: none;}
+a:visited {color:rgb(100, 97, 97)}
+button:hover {background-color:rgb(241, 103, 98);}
+header li a:hover {color:#515c8a;}
 
 
 /* Body */
@@ -28,7 +31,8 @@ body {font-family: 'Be Vietnam Pro', sans-serif;
 
 /* Header */
 
-header nav {display:none;}
+header nav {display:none;
+color:#232C50;}
 header div {display:none;}
 header {
 height:150px;
